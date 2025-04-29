@@ -6,8 +6,8 @@ documents.db
 # Ignorar la base de datos de persistencia de Chroma
 Chroma_langchain_db/
 Chroma_langchain_db/*
-Strategy_Chroma_db/
-Strategy_Chroma_db/*
+StrategyChroma_db/
+StrategyChroma_db/*
 
 # Ignorar archivos específicos de Python
 __pycache__/
