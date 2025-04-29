@@ -6,6 +6,9 @@ def ProcesingPDF (file_path:str):
     loader = PyPDFLoader(file_path)
     pages = loader.load()
 
+    for page in pages:
+        page.metadata["source"] = file_path
+
     text_spliter = RecursiveCharacterTextSplitter(
         chunk_size = 200,
         chunk_overlap = 30
