@@ -45,6 +45,7 @@ OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 POST /upload_pdf
 ```
 Descripción: Procesa y vectoriza un documento PDF.
+
 Parámetros form-data:
 
 - autors: Nombre(s) del(los) autor(es).
@@ -59,6 +60,7 @@ GET /ask?question=¿Qué es la misión empresarial?
 ```
 
 **Descripción**: Consulta sobre los documentos procesados.
+
 **Notas**:
 
 - Solo responde si encuentra el contexto en los documentos.
